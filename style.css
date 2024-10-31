@@ -16,16 +16,20 @@
   color: white;
   cursor: pointer;
   font-size: 1.2em;
+  /* ??? */
   position: relative;
+  border: solid;
 }
 .menu-items {
   display: none;
   position: absolute;
+  /* ??? */
   top: 100%;
   background-color: green;
   border-radius: 4px;
 }
 
+/* Sehr gut! */
 .menu:hover .menu-items {
   display: block;
 }
@@ -86,3 +90,21 @@
   margin-top: 20rem;
   margin-right: 30rem;
 }
+
+/* Nur zum Testen */
+footer {
+  background-color: red;
+  height: 12rem;
+}
+
+/* Feedback */
+
+/* 
+1. Nutze semantische Tags wie nav, main, section!
+2. Take it easy! Du denkst manchmal zu kompliziert
+    - div mit class top-row unnötig
+    - div mit class box unnötig
+    - class navigation und container wird zu nav und main
+
+    Siehe im Spolution Branch!
+*/
